@@ -1,5 +1,4 @@
 from gtts import gTTS
-from playsound import playsound
 import random
 import pytesseract
 import os
@@ -19,6 +18,7 @@ speech_config.speech_synthesis_voice_name = 'pt-BR-JulioNeural'
 config = configparser.ConfigParser()
 config.read('cnf.ini')
 pytesseract.pytesseract.tesseract_cmd = config.get('tesseract', 'path')
+
 
 
 class ImageReader:
