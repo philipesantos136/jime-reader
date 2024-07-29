@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 *.xml
 .idea/jime-reader.iml
+.idea/.name
